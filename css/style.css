@@ -1,8 +1,40 @@
+/* Colores
+92C7CF
+AAD7D9
+FBF9F1
+E5E1DA */
+
 .nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left:40px;
 }
+.menu a {
+    padding: 5px;
+}
+
+.productoImportante {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuProducto {
+    justify-content: center;
+}
+
+/* .menuProducto h2 {
+    text-align: center;
+}
+
+.menuProducto p {
+    text-align:justify;
+} */
+
