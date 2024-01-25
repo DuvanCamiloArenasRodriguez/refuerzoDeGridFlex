@@ -5,6 +5,9 @@ FBF9F1
 E5E1DA */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik+Iso&display=swap');
 
+body {
+    background-color: #FBF9F1;
+}
 
 .nav {
     display: flex;
@@ -22,10 +25,16 @@ E5E1DA */
     font-size: large;
     font-family: 'Poppins';
     padding-right: 20px;
+    
+}
+
+.menu a:link {
+    color: white;
+    text-decoration: none;
 }
 
 .menu a:hover {
-    color: #AAD7D9;
+    color: #92C7CF;
 }
 
 .menu a {
@@ -42,16 +51,36 @@ E5E1DA */
     background-image: url(../storage/imagenes/cientifico1.jpg);
     background-position: center;
     background-size: contain;
+    font-family: 'Poppins';
+    padding-right: 20px;
+ 
     /* background-repeat: no-repeat; */
 }
 
 .menuProducto {
-    width: 40vw;
+    width: 30vw;
     outline: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #7FC7D9;
+    border-radius: 15px;
+    padding: 20px;
 }
+
+.menuProducto button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    color: #30a1be;
+    border: none;
+    box-shadow: #46919c 0px 5px;
+}
+
+/* .menuProducto button-hover {
+    background-color: #92C7CF;
+} */
 
 .sobreYProductos {
     outline: 1px solid red;
@@ -67,6 +96,22 @@ E5E1DA */
     
 }
 
+.aboutUs h2 {
+    text-align: center;
+}
+
+.aboutUs img {
+    display: flex;
+    width: 40vw;
+    background-size: contain;
+    align-self: center;
+}
+
+.aboutUs p {
+    text-align: justify;
+    padding: 15px;
+}
+
 .division {
     display: flex;
     align-content: center;
@@ -79,6 +124,11 @@ E5E1DA */
     outline: 1px solid blue;
     width: 60vw;
     height: 100%;
+}
+
+.productos img {
+    width: 30%;
+    height: 30%;
 }
 
 .seccion3 {
