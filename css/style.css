@@ -3,6 +3,8 @@
 AAD7D9
 FBF9F1
 E5E1DA */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik+Iso&display=swap');
+
 
 .nav {
     display: flex;
@@ -13,23 +15,34 @@ E5E1DA */
 
 .menu {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     margin-left:40px;
+    margin-right: 100px;
+    font-size: large;
+    font-family: 'Poppins';
+    padding-right: 20px;
 }
+
+.menu a:hover {
+    color: #AAD7D9;
+}
+
 .menu a {
     padding: 5px;
 }
 
 .productoImportante {
-    /* background-image: url(../storage/imagenes/logo.png); */
-    background-repeat: no-repeat;
     height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     outline: 1px solid red;
+    background-image: url(../storage/imagenes/cientifico1.jpg);
+    background-position: center;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
 }
 
 .menuProducto {
