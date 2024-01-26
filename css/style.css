@@ -10,14 +10,15 @@ E5E1DA */
 } */
 
 body {
-    background-color: #FBF9F1;
+    /* background-color: #FBF9F1; */
+    background-color: white;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .menu {
@@ -51,8 +52,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid red;
-    background-image: url(../storage/imagenes/cientifico1.jpg);
+    /* outline: 1px solid red; */
+    background-image: url(../storage/imagenes/cientifico2.jpg);
     background-position: center;
     background-size: contain;
     font-family: 'Poppins';
@@ -66,11 +67,11 @@ body {
 
 .menuProducto {
     width: 30vw;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #7FC7D9;
+    background-color: #5fb9cfbd;
     border-radius: 15px;
     padding: 20px;
 }
@@ -80,7 +81,7 @@ body {
     border-radius: 10px;
     margin-bottom: 30px;
     font-family: 'Poppins';
-    color: #30a1be;
+    color: #2394b0;
     border: none;
     box-shadow: #46919c 0px 5px;
 }
@@ -90,24 +91,26 @@ body {
 } */
 
 .sobreYProductos {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: flex;
     justify-content: center;
     height: 100vh;
     gap: 20px;
     font-size: large;
     font-family: 'Poppins';
-    line-height: 140%
+    line-height: 140%;
+    ;
 }
 
 .aboutUs {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     width: 40vw;
     gap: 20px;
 }
 
 .aboutUs h2 {
     text-align: center;
+    color: rgb(0, 51, 105);
 }
 
 .aboutUs img {
@@ -121,16 +124,26 @@ body {
 .aboutUs p {
     text-align: justify;
     padding: 15px;
+    color: rgb(0, 51, 105);
 }
 
 
 .productos h2 {
     text-align: center;
+    color: rgb(0, 51, 105);
+}
+
+.productos h3 {
+    color: rgb(0, 51, 105);
+}
+
+.productos p{
+    color: rgb(0, 51, 105);
 }
 
 .productos {
     overflow-y: scroll;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     width: 60vw;
     height: 100%;
 }
@@ -161,7 +174,7 @@ body {
 }
 
 .seccion3 {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     height: 90vh;
     width: 100%;
     display: flex;
@@ -193,7 +206,7 @@ tr {
 }
 
 .fichaTecnica {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: flex;
     align-content: center;
     justify-content: center;
@@ -202,6 +215,9 @@ tr {
     height: 100%;
     text-align: center;
     align-items: center;
+    font-family: 'Poppins';
+    font-size:small;
+    color: rgb(0, 51, 105);
 }
 
 .redesSociales {
@@ -210,6 +226,8 @@ tr {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    font-family: 'Poppins';
+    font-size: medium;
 }
 
 .iconos {
@@ -222,10 +240,11 @@ tr {
 
 i {
     font-size: 30px;
+    
 }
 
 .mapa {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -244,7 +263,7 @@ i {
     box-shadow: #46919c 0px 5px;
     margin-top: 20px; */
 
-    width:40%;
+    width:35%;
 	padding:8px 16px;
 	margin-top:20px;
 	border:1px solid #000;
@@ -252,7 +271,9 @@ i {
 	display:block;
 	color: #30a1be;
     border: none;
-    box-shadow: #46919c 0px 5px
+    box-shadow: #46919c 0px 5px;
+    font-family: 'Poppins';
+    font-size: medium;
 }
 
 form {
@@ -265,6 +286,8 @@ form {
 	border-radius:10px;
 	margin-top: 20px;
 	background-color:#AAD7D9;
+    font-family: 'Poppins';
+    font-size: medium;
 }
 
 #nombre, #email, #area {
@@ -286,21 +309,34 @@ form {
 }
 
 .colaboradores {
-    height: 70vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
+    font-family: 'Poppins';
+    font-size: large;
 }
 
 .logoEmpresas img {
     width: 300px;
     height: 100px;
     object-fit: contain;
+}
 
+.colaboradores h3 {
+    color: rgb(0, 51, 105);
+}
+
+.colaboradores ul {
+    list-style-type: none;
+    color: rgb(0, 51, 105);
 }
 
 footer {
     text-align: center;
+    font-family: 'Poppins';
+    font-size: x-large;
+    color: rgb(0, 51, 105);
 }
