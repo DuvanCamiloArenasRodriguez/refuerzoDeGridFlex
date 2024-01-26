@@ -171,13 +171,25 @@ body {
     gap: 20px;
 }
 
-table {
+/* table {
     border: 1px solid #000;
     border-collapse: separate;
 }
 
 td {
     border-bottom: 1px solid #555;
+} */
+
+table th, td{
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: rgb(186, 187, 186) 1px solid;
 }
 
 
