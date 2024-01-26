@@ -192,7 +192,6 @@ tr {
     border-bottom: rgb(186, 187, 186) 1px solid;
 }
 
-
 .fichaTecnica {
     outline: 1px solid red;
     display: flex;
@@ -209,7 +208,7 @@ tr {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -217,19 +216,43 @@ tr {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    /* justify-content: space-around; */
+
 }
 
+i {
+    font-size: 30px;
+}
 
 .mapa {
     outline: 1px solid red;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     width: 70%;
     height: 100%;
+}
 
+.mapa button {
+    /* padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    color: #30a1be;
+    border: none;
+    box-shadow: #46919c 0px 5px;
+    margin-top: 20px; */
+
+    width:40%;
+	padding:8px 16px;
+	margin-top:20px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color: #30a1be;
+    border: none;
+    box-shadow: #46919c 0px 5px
 }
 
 form {
@@ -237,11 +260,29 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:300px;
+	padding:10px;
+	border-radius:10px;
+	margin-top: 20px;
+	background-color:#AAD7D9;
+}
+
+#nombre, #email, #area {
+    width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
 }
 
 .logoEmpresas {
     height: 20vh;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .colaboradores {
@@ -249,7 +290,15 @@ form {
     width: 100%;
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    outline: 1px solid red;
+}
+
+.logoEmpresas img {
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+
 }
 
 footer {
