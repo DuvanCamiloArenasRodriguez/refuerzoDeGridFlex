@@ -4,6 +4,10 @@ AAD7D9
 FBF9F1
 E5E1DA */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik+Iso&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 
 body {
     background-color: #FBF9F1;
@@ -25,11 +29,11 @@ body {
     font-size: large;
     font-family: 'Poppins';
     padding-right: 20px;
-    
+    color: black;
 }
 
-.menu a:link {
-    color: white;
+.menu a {
+    color: black ;
     text-decoration: none;
 }
 
@@ -52,10 +56,13 @@ body {
     background-position: center;
     background-size: contain;
     font-family: 'Poppins';
-    padding-right: 20px;
+    font-size: large;
+    /* padding-right: 20px; */
  
     /* background-repeat: no-repeat; */
 }
+
+
 
 .menuProducto {
     width: 30vw;
@@ -88,12 +95,15 @@ body {
     justify-content: center;
     height: 100vh;
     gap: 20px;
+    font-size: large;
+    font-family: 'Poppins';
+    line-height: 140%
 }
 
 .aboutUs {
     outline: 1px solid red;
     width: 40vw;
-    
+    gap: 20px;
 }
 
 .aboutUs h2 {
@@ -105,6 +115,7 @@ body {
     width: 40vw;
     background-size: contain;
     align-self: center;
+    justify-content: flex-start;
 }
 
 .aboutUs p {
@@ -112,11 +123,9 @@ body {
     padding: 15px;
 }
 
-.division {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    
+
+.productos h2 {
+    text-align: center;
 }
 
 .productos {
@@ -127,8 +136,28 @@ body {
 }
 
 .productos img {
-    width: 30%;
-    height: 30%;
+    width: 70%;
+    height: 70%;
+}
+
+.division {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.division h3 {
+    margin: 20px;
+}
+
+.division p {
+    /* width: 100%; */
+    padding: 20px;
+    text-align: justify;
+    padding-right: 20px;
 }
 
 .seccion3 {
@@ -141,6 +170,16 @@ body {
     justify-content: space-around;
     gap: 20px;
 }
+
+table {
+    border: 1px solid #000;
+    border-collapse: separate;
+}
+
+td {
+    border-bottom: 1px solid #555;
+}
+
 
 .fichaTecnica {
     outline: 1px solid red;
